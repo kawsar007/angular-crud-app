@@ -1,0 +1,68 @@
+{
+  "productList": [
+    {
+      "productName": "Apple watch G2",
+      "category": "Electronic",
+      "freshness": "Brand New",
+      "price": 400,
+      "comment": "This is a fantastic watch.",
+      "date": "2022-06-14T18:00:00.000Z",
+      "id": 1
+    },
+    {
+      "productName": "Samsung M20",
+      "category": "Electronic",
+      "freshness": "Second Hand",
+      "price": 3000,
+      "comment": "This is a nice phone.",
+      "date": "2022-06-14T18:00:00.000Z",
+      "id": 2
+    },
+    {
+      "productName": "Xiome Note 10 Pro",
+      "category": "Electronic",
+      "freshness": "Brand New",
+      "price": 260,
+      "comment": "This is a brand new phone.",
+      "date": "2022-06-12T18:00:00.000Z",
+      "id": 6
+    },
+    {
+      "productName": "Nokia N95",
+      "category": "Electronic",
+      "freshness": "Second Hand",
+      "price": 400,
+      "comment": "This is an old Phone.",
+      "date": "2022-06-15T18:00:00.000Z",
+      "id": 7
+    },
+    {
+      "productName": "Samsung M200",
+      "category": "Electronic",
+      "freshness": "Brand New",
+      "price": 3000,
+      "comment": "This is a nice phone.",
+      "date": "2022-06-22T18:00:00.000Z",
+      "id": 9
+    },
+    {
+      "productName": "One Plas 8 Pro Max.",
+      "category": "Electronic",
+      "freshness": "Brand New",
+      "price": 450,
+      "comment": "This is a brand new phone.",
+      "date": "2022-06-16T18:00:00.000Z",
+      "id": 10
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
