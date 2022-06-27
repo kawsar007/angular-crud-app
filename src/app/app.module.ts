@@ -25,6 +25,7 @@ import { NgToastModule } from 'ng-angular-popup';
 import { LoginComponent } from './login/login.component';
 import { SignupComponent } from './signup/signup.component';
 import { AdminComponent } from './admin/admin.component';
+import {MatCardModule} from '@angular/material/card';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,7 @@ import { AdminComponent } from './admin/admin.component';
     DialogComponent,
     LoginComponent,
     SignupComponent,
-    AdminComponent
+    AdminComponent,
   ],
   imports: [
     BrowserModule,
@@ -54,7 +55,8 @@ import { AdminComponent } from './admin/admin.component';
     MatTableModule,
     MatPaginatorModule,
     MatSortModule,
-    NgToastModule
+    NgToastModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]

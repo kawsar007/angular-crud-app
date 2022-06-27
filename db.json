@@ -53,13 +53,63 @@
       "comment": "This is a brand new phone.",
       "date": "2022-06-16T18:00:00.000Z",
       "id": 10
+    },
+    {
+      "productName": "Test Product Updated.",
+      "category": "Vegetables",
+      "freshness": "Brand New",
+      "price": 120,
+      "comment": "Updated product.",
+      "date": "2022-06-26T18:00:00.000Z",
+      "id": 12
+    },
+    {
+      "productName": "Stowbery",
+      "category": "Vegetables",
+      "freshness": "Brand New",
+      "price": 12,
+      "comment": "This is new fruits",
+      "date": "2022-06-25T18:00:00.000Z",
+      "id": 13
     }
   ],
-  "comments": [
+  "signupUser": [
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "fullName": "Md Kawsar Mia",
+      "mobileNumber": 1638600627,
+      "email": "imkawsar007@gmail.com",
+      "password": "ka467005",
+      "id": 1
+    },
+    {
+      "fullName": "Nirob Khan",
+      "mobileNumber": 1929439834,
+      "email": "nirob@gmail.com",
+      "password": "123456",
+      "id": 2
+    },
+    {
+      "fullName": "trhty ",
+      "mobileNumber": 12345677776,
+      "email": "fgfgf@gmail.com",
+      "password": "1234567",
+      "id": 3
+    },
+    {
+      "fullName": "Kawsar Mia",
+      "mobileNumber": 12765433456,
+      "email": "sakib@gmail.com",
+      "password": "123456",
+      "confirmPassword": "123456",
+      "id": 4
+    },
+    {
+      "fullName": "Abu Said",
+      "mobileNumber": 12345678987,
+      "email": "abusaid009@gmail.com",
+      "password": "123456",
+      "confirmPassword": "1234567",
+      "id": 5
     }
   ],
   "profile": {

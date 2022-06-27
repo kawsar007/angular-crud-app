@@ -1,1 +1,21 @@
-<p>login works!</p>
+<div class="wrapper">
+    <mat-card>
+        <h2>Login Form</h2>
+        <form [formGroup]="loginForm" (ngSubmit)="login()">
+            <mat-form-field appearance="outline">
+                <mat-label>Email</mat-label>
+                <input type="email" formControlName="email" matInput placeholder="Enter email">
+                <mat-error *ngIf="loginForm.controls['email'].dirty && loginForm.hasError('required','email')">*Email is required!</mat-error>
+            </mat-form-field>
+
+            <mat-form-field appearance="outline">
+                <mat-label>Password</mat-label>
+                <input type="password" formControlName="password" matInput placeholder="Enter password">
+                <mat-error *ngIf="loginForm.controls['password'].dirty && loginForm.hasError('required','password')">*Password is required!</mat-error>
+            </mat-form-field>
+            
+            <button [disabled]="!loginForm.valid" mat-raised-button color="primary">Login</button>
+            <a routerLink="/signup">New user? Click to Sign Up</a>
+        </form>
+    </mat-card>
+</div>

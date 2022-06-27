@@ -1,5 +1,10 @@
-/* .example-spacer {
-    flex: 1 1 auto;
+.example-spacer {
+    /* flex: 1 1 auto; */
+}
+
+.mat-toolbar {
+  display: flex;
+  justify-content: space-between;
 }
 
 .container {
@@ -19,4 +24,4 @@ table {
 
 td, th {
   width: auto;
-} */
+}

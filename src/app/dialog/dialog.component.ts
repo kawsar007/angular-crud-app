@@ -13,6 +13,7 @@ export class DialogComponent implements OnInit {
 
   freshnessList = ["Brand New", "Second Hand", "Refurbished"];
   productForm !: FormGroup;
+  // productForm : any;
   actionBtn: string = "Save";
 
   constructor(
