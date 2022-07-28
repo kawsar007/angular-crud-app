@@ -27,6 +27,8 @@ export class AdminComponent implements OnInit {
 
   ngOnInit(): void {
     this.getAllProducts();
+    console.log(this.dataSource, "DB List");
+    
   }
 
   openDialog() {
